@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Barless WP: WordPress Admin Bar Toggle",
+  "description": "Hide or restore the WordPress admin bar, with optional per-site persistence across reloads.",
+  "version": "1.0.0",
+  "permissions": ["storage"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle WordPress admin bar",
+    "default_icon": {
+      "16": "icons/visible-16.png",
+      "32": "icons/visible-32.png",
+      "48": "icons/visible-48.png",
+      "128": "icons/visible-128.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
