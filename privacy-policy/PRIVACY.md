@@ -47,5 +47,6 @@ The user can remove stored extension data at any time by:
 
 ## Contact
 
-Questions about this policy may be directed through the contact method provided on the extension's
-store listing or publisher website.
+Questions about this policy may be directed to `chrome@alebenassi.com`.
+
+Publisher website: `https://alebenassi.com`
