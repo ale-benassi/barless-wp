@@ -1,5 +1,5 @@
 const DEFAULT_SETTINGS = {
-  persistHiddenState: false,
+  persistHiddenState: true,
 };
 const DEFAULT_TITLE = "Toggle WordPress admin bar";
 const NO_ADMIN_BAR_TITLE = "No WordPress admin bar on this page";
@@ -27,11 +27,15 @@ const ACTION_ICONS = {
 };
 const feedbackTimeouts = new Map();
 
-chrome.runtime.onInstalled.addListener(async () => {
+chrome.runtime.onInstalled.addListener(async (details) => {
   const current = await chrome.storage.sync.get("persistHiddenState");
 
   if (typeof current.persistHiddenState !== "boolean") {
     await chrome.storage.sync.set(DEFAULT_SETTINGS);
+  }
+
+  if (details.reason === "install") {
+    await chrome.runtime.openOptionsPage();
   }
 });
 

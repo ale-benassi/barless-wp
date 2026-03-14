@@ -1,6 +1,6 @@
 const STYLE_ID = "hide-wp-admin-bar-extension-style";
 const DEFAULT_SETTINGS = {
-  persistHiddenState: false
+  persistHiddenState: true
 };
 
 function getOriginKey() {

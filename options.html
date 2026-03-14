@@ -1,35 +1,37 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Barless WP Settings</title>
-    <link rel="stylesheet" href="options.css">
+    <link rel="stylesheet" href="options.css" />
   </head>
   <body>
     <main class="page">
-      <section class="panel">
-        <p class="eyebrow">Barless WP</p>
-        <h1>Settings</h1>
-        <p class="description">
-          Choose whether a hidden WordPress admin bar should stay hidden after the page reloads.
-        </p>
-
-        <label class="setting" for="persistHiddenState">
-          <span class="setting-copy">
-            <span class="setting-title">Remember hidden state on reload</span>
-            <span class="setting-hint">Stored per site origin. Turning this off clears saved hidden sites.</span>
-          </span>
-          <input id="persistHiddenState" type="checkbox">
-        </label>
-
-        <p id="statusMessage" class="status" aria-live="polite"></p>
-
-        <p class="trust-note">
-          This extension only checks the current page for the WordPress admin bar and stores your
-          preference in Chrome storage. It does not send browsing data anywhere.
-        </p>
-      </section>
+      <div class="page-wrapper">
+        <div class="welcome">
+          <h3 class="welcome-surtitle">Welcome to</h3>
+          <h1 class="welcome-title">Barless WP!</h1>
+        </div>
+        <section class="panel">
+          <label class="setting" for="persistHiddenState">
+            <span class="setting-copy">
+              <span class="setting-title">Remember hidden state on reload</span>
+              <span class="setting-hint"
+                >Stored per site origin. Turning this off clears saved hidden
+                sites.</span
+              >
+            </span>
+            <input id="persistHiddenState" type="checkbox" />
+          </label>
+          <p id="statusMessage" class="status" aria-live="polite"></p>
+          <p class="trust-note">
+            This extension only checks the current page for the WordPress admin
+            bar and stores your preference in Chrome storage. It does not send
+            browsing data anywhere.
+          </p>
+        </section>
+      </div>
     </main>
 
     <script src="options.js"></script>

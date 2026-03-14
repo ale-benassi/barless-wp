@@ -1,5 +1,5 @@
 const DEFAULT_SETTINGS = {
-  persistHiddenState: false
+  persistHiddenState: true
 };
 
 const persistCheckbox = document.getElementById("persistHiddenState");
