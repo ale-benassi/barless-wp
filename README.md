@@ -1,12 +1,13 @@
 # Barless WP: WordPress Admin Bar Toggle
 
-A Chrome extension that toggles the WordPress admin bar on the current page and can optionally
-remember the hidden state per site across reloads.
+A Chrome extension that toggles the WordPress admin bar on the current page and can remember the
+hidden state per site across reloads. Hidden-state persistence is enabled by default and can be
+turned off in settings.
 
 ## Features
 
 - One-click toolbar toggle for the WordPress admin bar
-- Per-site persistence when the user enables `Remember hidden state on reload`
+- Per-site persistence by default, with a settings toggle to turn it off
 - No remote services, analytics, or third-party scripts
 
 ## Load locally

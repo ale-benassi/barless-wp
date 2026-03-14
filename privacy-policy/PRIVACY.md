@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: March 12, 2026
+Last updated: March 14, 2026
 
 Barless WP: WordPress Admin Bar Toggle is a browser extension that lets the user hide or restore
 the WordPress admin bar on pages where that bar is present.
@@ -20,7 +20,7 @@ that bar based on the user's action and settings.
 The extension stores only the minimum data required for its single purpose:
 
 - `persistHiddenState` in `chrome.storage.sync` to remember whether the user wants hidden-state
-  persistence enabled
+  persistence enabled; the default value is `true`
 - a per-site map of hidden origins in `chrome.storage.local` to remember on which site origins the
   admin bar should remain hidden after a page reload
 
