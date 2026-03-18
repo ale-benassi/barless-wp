@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Barless WP - Hide WordPress Admin Bar / Toolbar Toggle",
   "description": "Hide or show the WordPress admin bar (toolbar) instantly with a one-click toggle. Remembers your preference per site.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "permissions": ["storage"],
   "host_permissions": ["http://*/*", "https://*/*"],
   "background": {
