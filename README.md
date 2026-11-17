@@ -3,9 +3,10 @@
 Hide or restore the WordPress admin bar with one click. A small Chrome extension for
 previewing layouts, inspecting pages, and checking your work while staying logged in.
 
-**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/barless-wp-hide-wordpress/gibnjfgdngfopbbjiicicabafbhgjmca)**
-· [Website](https://alebenassi.com)
-· [Report a bug](https://github.com/ale-benassi/barless-wp/issues)
+<p>
+  <a href="https://chromewebstore.google.com/detail/barless-wp-hide-wordpress/gibnjfgdngfopbbjiicicabafbhgjmca"><img src="assets/add-to-chrome.svg" width="208" height="44" alt="Add to Chrome" align="middle"></a>
+  &ensp;<a href="https://alebenassi.com">Website</a>&nbsp;·&nbsp;<a href="https://github.com/ale-benassi/barless-wp/issues">Report&nbsp;a&nbsp;bug</a>
+</p>
 
 ![Barless WP — browser previews with the WordPress admin bar visible and hidden.](assets/readme-banner-v3.png)
 
