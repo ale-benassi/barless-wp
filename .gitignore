@@ -1,2 +1,8 @@
 .DS_Store
 *.af~lock~
+
+# Local working notes and drafts
+/.local/
+/STORE_LISTING.md
+/TEST_INSTRUCTIONS.md
+/assets/*.prompt.txt
