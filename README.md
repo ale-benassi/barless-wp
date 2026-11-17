@@ -77,6 +77,16 @@ This creates `dist/barless-wp-wordpress-admin-bar-toggle-<version>.zip`, using t
 version in `manifest.json`. The ZIP includes the extension runtime files and MIT license.
 [Store submission notes](STORE_LISTING.md) cover the listing and reviewer information.
 
+### Privacy policy deployment
+
+The policy at `https://barless-wp.alebenassi.com` is served by the Cloudflare Worker
+`barless-wp-privacy`, connected to this public repository through Workers Builds.
+Builds run in `/privacy-policy`: pushes to `main` deploy with `npx wrangler deploy`,
+and pushes to other branches upload a version with `npx wrangler versions upload`.
+
+When changing the policy, update both `privacy-policy/PRIVACY.md` and
+`privacy-policy/index.html`. Hosting configuration lives in `privacy-policy/wrangler.jsonc`.
+
 ## Contributing
 
 Bug reports, suggestions, and pull requests are welcome. Use
