@@ -1,25 +1,59 @@
 # Chrome Web Store Submission Notes
 
-## Suggested title
+Listing description and URL updates submitted on November 17, 2026.
+Status: pending Google review, with automatic publication enabled after approval.
+The submission uses the existing version 1.0.2 package.
 
-Barless WP: WordPress Admin Bar Toggle
+## Title (from package)
 
-## Suggested short description
+Barless WP - Hide WordPress Admin Bar / Toolbar Toggle
 
-Hide or restore the WordPress admin bar, with per-site persistence across reloads.
+## Summary (from package)
 
-## Suggested detailed description
+Hide or show the WordPress admin bar (toolbar) instantly with a one-click toggle. Remembers your preference per site.
 
-Barless WP: WordPress Admin Bar Toggle gives you a one-click way to hide or restore the WordPress
-admin bar on the current site.
+## Submitted detailed description
 
-Use the toolbar button to toggle the admin bar instantly while you browse or edit a WordPress site.
-The extension remembers hidden state per site origin across reloads by default, and you can turn
-that behavior off from the settings page at any time.
+Barless WP lets you hide or restore the WordPress admin bar with one click. Preview layouts,
+inspect elements, and check your work while staying logged in to WordPress.
 
-The extension only works when a page actually contains the WordPress admin bar. It does not add
-remote services, analytics, or tracking, and it stores only the minimum local settings required to
-remember your preference.
+Click the extension's toolbar icon to hide the bar, then click again to bring it back. Your choice
+is remembered per site across reloads by default. You can turn persistence off in the extension's
+settings; doing so clears saved site preferences.
+
+Key features
+
+- One-click toggle for the standard WordPress admin bar
+- Per-site memory across reloads, enabled by default
+- A settings option to turn persistence off
+- A toolbar icon that reflects whether the bar is visible or hidden
+- Free and open source under the MIT license
+
+Barless WP works on pages that contain the standard WordPress admin bar. It is useful for
+developers, designers, and anyone reviewing a WordPress site's appearance in their browser.
+
+Privacy
+
+The extension includes no analytics, tracking, or third-party scripts and sends no browsing data
+to a server. Saved site origins stay in local extension storage. The persistence preference uses
+Chrome's sync storage and may sync between browsers signed in to the same account.
+
+Open source
+
+Read the code, report a bug, suggest an improvement, or contribute on GitHub.
+
+Source code: https://github.com/ale-benassi/barless-wp
+Bug reports and suggestions: https://github.com/ale-benassi/barless-wp/issues
+Created by Alessandro Benassi: https://alebenassi.com
+
+## Submitted listing links
+
+| Field | URL |
+| --- | --- |
+| Official URL / verified publisher | https://alebenassi.com |
+| Homepage URL | https://alebenassi.com |
+| Support URL | https://github.com/ale-benassi/barless-wp/issues |
+| Privacy policy | https://barless-wp.alebenassi.com |
 
 ## Suggested single purpose field
 
@@ -33,12 +67,12 @@ hidden after reloads.
   arbitrary WordPress sites and restore the hidden state after reloads on the sites where the user
   has hidden the bar
 
-## Privacy practices draft
+## Privacy practices
 
-- User data collected: none
+- Store disclosure: Web history; saved site origins are stored in local extension storage
 - Data sold: no
 - Data shared with third parties: no
-- Purpose of storage: extension settings only
+- Purpose of storage: persistence preference and saved site origins
 
 ## Test instructions draft
 
@@ -55,7 +89,7 @@ hidden after reloads.
 
 - Upload the generated zip from `dist/`
 - Set category, language, and support contact in the Developer Dashboard
-- Publish the privacy policy from `PRIVACY.md` at a public URL and add that URL in the dashboard
+- Use the published policy at `https://barless-wp.alebenassi.com`, whose source is `privacy-policy/PRIVACY.md`
 - Add at least one current 1280x800 or 640x400 screenshot that reflects the actual extension
   experience
 - Prepare a 440x280 small promo tile for the Store Listing tab
