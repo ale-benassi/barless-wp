@@ -22,7 +22,7 @@ trap cleanup EXIT INT TERM
 
 mkdir -p "$OUT_DIR" "$TMP_DIR/icons"
 
-cp manifest.json background.js content.js options.html options.css options.js "$TMP_DIR/"
+cp LICENSE manifest.json background.js content.js options.html options.css options.js "$TMP_DIR/"
 cp \
   icons/icon16.png \
   icons/icon32.png \

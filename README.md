@@ -25,7 +25,7 @@ Run:
 ./package-store.sh
 ```
 
-This creates a submission zip in `dist/` with only the extension runtime files.
+This creates a submission zip in `dist/` with the extension runtime files and license.
 
 ## Privacy
 
@@ -37,3 +37,12 @@ The extension only:
 - stores hidden-site origins in `chrome.storage.local`
 
 It does not transmit user data, page content, or browsing history to any server.
+
+## Feedback and contributions
+
+Report bugs or suggest improvements through [GitHub issues](https://github.com/ale-benassi/barless-wp/issues).
+Pull requests are welcome. See [TEST_INSTRUCTIONS.md](TEST_INSTRUCTIONS.md) for the manual test flow.
+
+## License
+
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Alessandro Benassi.
