@@ -7,7 +7,7 @@ previewing layouts, inspecting pages, and checking your work while staying logge
 · [Website](https://alebenassi.com)
 · [Report a bug](https://github.com/ale-benassi/barless-wp/issues)
 
-![Barless WP — browser previews with the WordPress admin bar visible and hidden.](assets/readme-banner-v2.png)
+![Barless WP — browser previews with the WordPress admin bar visible and hidden.](assets/readme-banner-v3.png)
 
 ## Features
 
